@@ -1,0 +1,18 @@
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>SNO</th>
+            <th>Laptop Name</th>
+            <th>Price</th>
+            
+        </tr>
+    </thead>
+    <tbody *ngFor="let laptop of laptops">
+        <tr>
+            <td>{{laptop.laptopId}}</td>
+            <td>{{laptop.laptopName}}</td>
+            <td>{{laptop.laptopPrice}}</td>
+            
+        </tr>
+    </tbody>
+</table>
